@@ -10,7 +10,7 @@ Project Contributors:
 
 **Shaunak Bhanarkar | 2016A7PS0029G | B.E.(Hons.) Computer Science | BITS Pilani K K Birla Goa Campus**
 
-**And other students of the batch of SDPD Semester 1 2018-19.**
+**And other students of the batch of SDPD Semester 1 (2018-19).**
 
 
 Project Duration: **Oct - Nov 2018**
