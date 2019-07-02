@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/temperatureImage"
+        android:layout_width="111dp"
+        android:layout_height="122dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:src="@drawable/bible" />
+
+    <TextView
+        android:id="@+id/projectText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="146dp"
+        android:height="55dp"
+        android:text="IoT Project"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Holo.Widget.ActionBar.Title"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="373dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="298dp"
+        android:background="@drawable/input_background"
+        android:ems="10"
+        android:hint="Password..."
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:paddingTop="40dp" />
+
+    <EditText
+        android:id="@+id/emailText"
+        android:layout_width="373dp"
+        android:layout_height="55dp"
+        android:layout_alignStart="@+id/passwordText"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="217dp"
+        android:background="@drawable/input_background"
+        android:ems="10"
+        android:hint="Email..."
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:paddingTop="60dp" />
+
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="245dp"
+        android:layout_height="76dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="392dp"
+        android:background="@drawable/btn_background"
+        android:hapticFeedbackEnabled="true"
+        android:text="SIGN IN"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@android:color/holo_blue_dark"
+        android:textSize="20dp"
+        tools:textColor="@android:color/holo_blue_dark" />
+
+</RelativeLayout>

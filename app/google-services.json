@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "78215309598",
+    "firebase_url": "https://temperatureiot-7ca61.firebaseio.com",
+    "project_id": "temperatureiot-7ca61",
+    "storage_bucket": "temperatureiot-7ca61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78215309598:android:e662ea7b8667949b",
+        "android_client_info": {
+          "package_name": "com.example.temperature"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78215309598-tsj73uhpnnvo62256hetf63vj2s0ec68.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.temperature",
+            "certificate_hash": "8bccb59cbd97a8c481519e2c1f360dcf390ada9b"
+          }
+        },
+        {
+          "client_id": "78215309598-hdek9j9pd7k6ggr96ugd1230pj2edctc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxK9wcZRXmWwbfCiNoIARSsL_jGh3LD4E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78215309598-hdek9j9pd7k6ggr96ugd1230pj2edctc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
